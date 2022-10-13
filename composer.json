@@ -101,7 +101,9 @@
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
       "@php artisan package:discover --ansi"
-    ]
+    ],
+    "test": "phpunit",
+    "test:core": "phpunit vendor/dreamfactory/df-core/tests/"
   },
   "config": {
     "platform": {
